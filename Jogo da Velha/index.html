@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="indicador">
+        <p>Vez do Jogador:</p>
+        <img src="" height="50">
+    </div>
+    <div class="tabuleiro">
+        <div id="a1" class="espaco espaco1" jogada></div>
+        <div id="a2" class="espaco espaco2" jogada></div> 
+        <div id="a3" class="espaco espaco3" jogada></div>   
+
+        <div id="b1" class="espaco espaco4" jogada></div>
+        <div id="b2" class="espaco espaco5" jogada></div> 
+        <div id="b3" class="espaco espaco6" jogada></div>  
+
+        <div id="c1" class="espaco espaco7" jogada></div>
+        <div id="c2" class="espaco espaco8" jogada></div> 
+        <div id="c3" class="espaco espaco9" jogada></div>  
+    </div>
+
+    <div class="placar">
+        <table>
+            <thead>
+                <tr>
+                    <th align="center" colspan="2">Placar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center"><img src="Imagens/X.png" height="30px" width="30px"></td>
+                    <td align="center"><img src="Imagens/O.png" height="30px" width="30px"></td>
+                </tr>
+                <tr>
+                    <td align="center" id="pontosX">0</td>
+                    <td align="center" id="pontosO">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="jogo.js"></script>
+</body>
+</html>

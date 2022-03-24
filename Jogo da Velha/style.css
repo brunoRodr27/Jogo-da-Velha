@@ -1,0 +1,126 @@
+body {
+    height: 89vh;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background: linear-gradient(45grad, white, #DCDCDC, #D3D3D3, #C0C0C0);    
+}
+
+#indicador {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;    
+    width: 190px;
+    height: 80px;
+}
+
+#indicador p {
+    float: left;
+    margin-right: 10px;
+}
+
+.tabuleiro {
+    width: 252px;
+    height: 252px;
+    margin: auto;
+}
+
+.espaco1 {
+    width: 80px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco2 {
+    width: 80px;
+    height: 60px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco3 {
+    width: 80px;
+    height: 60px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco4 {
+    width: 80px;
+    height: 60px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco5 {
+    width: 80px;
+    height: 60px;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco6 {
+    width: 80px;
+    height: 60px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco7 {
+    width: 80px;
+    height: 60px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco8 {
+    width: 80px;
+    height: 60px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.espaco9 {
+    width: 80px;
+    height: 60px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.placar table{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;   
+    width: 190px;
+    height: 80px;
+}
